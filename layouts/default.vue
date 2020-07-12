@@ -91,3 +91,17 @@ export default {
   },
 }
 </script>
+
+<style lang="scss">
+.theme--light.v-app-bar.v-toolbar.v-sheet {
+  background: #ffffea;
+  box-shadow: 10px 10px 20px #d9d9c7, -10px -10px 20px #fffff4 !important;
+}
+main {
+  background: #ffffea;
+}
+.theme--light.v-footer {
+  background: #ffffea;
+  box-shadow: inset 10px 10px 20px #d9d9c7, inset -10px -10px 20px #fffff4 !important;
+}
+</style>
