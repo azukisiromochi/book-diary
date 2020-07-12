@@ -1,7 +1,7 @@
 <template>
   <v-layout column justify-center align-center>
     <v-flex xs12 sm8 md6>
-      <v-row>
+      <v-row class="ma-5">
         <v-col cols="12">
           <v-row :align="alignment" :justify="justify">
             <v-card
